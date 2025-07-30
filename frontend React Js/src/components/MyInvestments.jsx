@@ -13,7 +13,7 @@ function MyInvestments() {
 
   const fetchInvestments = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/investment");
+      const res = await axios.get("https://investments-react-express.onrender.com/api/investment");
       setInvestments(res.data); 
     } catch (err) {
       alert("Error al cargar inversiones: " + (err?.response?.data?.error || err.message));
@@ -28,7 +28,7 @@ function MyInvestments() {
 
     try {
 
-      const res = await axios.post("http://localhost:8000/api/investment/calculate", {
+      const res = await axios.post("https://investments-react-express.onrender.com/api/investment/calculate", {
         amount: Number(inv.amount),
         annualInterestRate: Number(inv.annualInterestRate),
         termMonths: Number(inv.termMonths),

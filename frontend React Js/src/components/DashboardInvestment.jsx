@@ -26,7 +26,7 @@ function Dashboard() {
   const handleSave = async () => {
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:8000/api/investment", {
+      const res = await axios.post("https://investments-react-express.onrender.com/api/investment", {
         amount,
         annualInterestRate: rate,
         termMonths: months,
@@ -49,7 +49,7 @@ function Dashboard() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/api/investment/calculate",
+        "https://investments-react-express.onrender.com/api/investment/calculate",
         {
           amount: Number(amount),
           annualInterestRate: Number(rate),
