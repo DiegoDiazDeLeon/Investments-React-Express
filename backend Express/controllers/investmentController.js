@@ -1,4 +1,4 @@
-const Investment = require('../Investment');
+const Investment = require('../investment');
 
 const createInvestment = async (req, res) => {
   try {
