@@ -24,7 +24,8 @@ Lucas podrá:
 ### Link desde web: https://investmentaia-diego.web.app/
 ### tambien puedes hacer pruebas con postman a: https://investments-react-express.onrender.com
 
-<img width="813" height="1114" alt="DiagramaInvestments drawio" src="https://github.com/user-attachments/assets/2604daa3-9ac3-4a6f-9891-5615bdb917da" />
+<img width="807" height="834" alt="CloudInvestment drawio" src="https://github.com/user-attachments/assets/757d4444-db63-43d3-9953-de31f0274b52" />
+
 
 
 ## ⚙️ Instalación Local y ejecución del proyecto
