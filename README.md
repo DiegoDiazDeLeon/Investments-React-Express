@@ -19,7 +19,15 @@ Lucas podrá:
 
 ---
 
-## ⚙️ Instalación y ejecución del proyecto
+## ☁️ Proyecto para ver web desde la nube de Firebase y Render
+
+### Link desde web: https://investmentaia-diego.web.app/
+### tambien puedes hacer pruebas con postman a: https://investments-react-express.onrender.com
+
+<img width="813" height="1114" alt="DiagramaInvestments drawio" src="https://github.com/user-attachments/assets/2604daa3-9ac3-4a6f-9891-5615bdb917da" />
+
+
+## ⚙️ Instalación Local y ejecución del proyecto
 
 ### 1. Clona el repositorio
 git clone https://github.com/tu-usuario/tu-repo.git
